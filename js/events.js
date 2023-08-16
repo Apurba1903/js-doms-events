@@ -21,6 +21,6 @@ greenButton.addEventListener('click', function makeGreen() {
 });
 
 // Important 
-document.getElementById('make-goldenrod').addEventListener('click', function() {
+document.getElementById('make-goldenrod').addEventListener('click', function () {
     document.body.style.backgroundColor = 'goldenrod';
 });
