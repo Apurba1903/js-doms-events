@@ -11,17 +11,15 @@
     <h1>Please Add Your Comment</h1>
     <div id="comment-container">
         <p>Very Good</p>
-
         <p>Nice Job</p>
-
         <p>Wonderful</p>
     </div>
+
     <div>
         <textarea name="" id="new-comment" cols="60" rows="5"></textarea>
         <br>
         <button id="btn-post">Post</button>
     </div>
-
 
     <script>
         // Step 1
@@ -35,8 +33,10 @@
             const commentContainer = document.getElementById('comment-container');
             const p = document.createElement('p');
             p.innerText = newComment;
+
+            // Step 3.1
             commentContainer.appendChild(p);
-            
+
             // Step 4
             commentBox.value = '';
         });
